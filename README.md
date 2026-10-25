@@ -13,7 +13,7 @@
    pip install -r requirements.txt
    ```
 
-2. **Configure credentials.** 
+2. **Configure credentials.**  
    Create a .env to store your enpoints
 
    | Variable | Value |
@@ -29,9 +29,9 @@
 
 
 ## Running
-
-python rag_eval.py --docs docs --questions omega_rag_eval_questions.xlsx
-
+   ```bash
+   python rag_eval.py --docs docs --questions omega_rag_eval_questions.xlsx
+   ```
 
 | Option | Default | Description |
 | --- | --- | --- |
